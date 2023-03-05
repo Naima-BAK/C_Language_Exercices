@@ -1,6 +1,6 @@
 #include <stdio.h>
 //Solution of ax + b = 0
-  void main(){
+void main(){
    float a,b,x;
    printf("get a and b from the user \n");
    scanf("%f",&a);
