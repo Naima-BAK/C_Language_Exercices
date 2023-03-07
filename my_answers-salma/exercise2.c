@@ -1,18 +1,22 @@
 #include <stdio.h>
+      int main () {
+         float x;
+            printf("please enter num1: ");
+                    scanf("%f",&x);
+                          printf("x=%f\n",x);
+         float y;
+           printf("please enter num2: ");
+                    scanf("%f",&y);
+                          printf("y=%f\n",y);
+     if( y > 0 ) {
 
-    int main () {
-    int x;
-        printf("please enter num1: ");
-              scanf("%d",&x);
-                   printf("x=%d\n",x);
-    int y;
-        printf("please enter num2: ");
-              scanf("%d",&y);
-                   printf("y=%d\n",y);
+				 float result =  x / y ;
 
+                   printf("the result of dividing  %f by  %f is : %f\n ",x ,y ,result);
+	}
 
-				 int result = x*y ;
-
-        printf("the result of multiplication of %d and %d is : %d ",x ,y ,result);
+	else {
+               	printf("ERROR:num2 must be greater than 0.\n");
+	}
                return 0;
 }

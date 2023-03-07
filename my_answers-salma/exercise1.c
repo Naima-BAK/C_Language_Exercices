@@ -1,35 +1,18 @@
 #include <stdio.h>
-   int absoluteValue(int x)  
-{
- 
-  if (x >= 0 ) {
-      return x;
-	    } else { 
-	         return -x;
- }
+
+    int main () {
+    int x;
+        printf("please enter num1: ");
+              scanf("%d",&x);
+                   printf("x=%d\n",x);
+    int y;
+        printf("please enter num2: ");
+              scanf("%d",&y);
+                   printf("y=%d\n",y);
+
+
+				 int result = x*y ;
+
+        printf("the result of multiplication of %d and %d is : %d ",x ,y ,result);
+               return 0;
 }
-
-
-
-int main()
-{
- int x;
-   printf("enter a number please:");
-   scanf("%d",&x);
-   printf("The absolute value of %d is %d\n", x, absoluteValue(x));
-   return 0;
-   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
